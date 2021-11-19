@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <Layout>
       <div className={contentContainer}>
-        hello
+        hello this is art.
       </div>
     </Layout>
   );

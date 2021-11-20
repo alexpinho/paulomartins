@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <Layout>
       <div className={contentContainer}>
-        hello this is art.
+        <h1 className="big-title-Book">Architecture <br/> &</h1>
       </div>
     </Layout>
   );

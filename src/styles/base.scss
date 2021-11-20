@@ -6,4 +6,51 @@
   box-sizing: border-box;
 }
 
-//falta estilos de texto
+$primary-color: #1e1e1e;
+$secondary-color: #ffffff;
+
+.big-title-Book {
+  font-family: "RecifeDisplay-Book";
+  font-size: 10rem;
+  line-height: 10.5rem;
+  font-weight: 400;
+  color: $primary-color;
+}
+
+.big-title-BookItalic {
+  font-family: "RecifeDisplay-BookItalic";
+  font-size: 10rem;
+  line-height: 10.5rem;
+  font-weight: 400;
+  color: $primary-color;
+}
+
+.big-title-Regular {
+  font-family: "HelveticaNeue";
+  font-size: 10rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $primary-color;
+}
+
+.title-Regular {
+  font-family: "HelveticaNeue";
+  font-size: 6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $primary-color;
+}
+
+.home-subtitle {
+  font-family: "RecifeDisplay-Book";
+  font-size: 2rem;
+  font-weight: 400;
+  color: $primary-color;
+}
+
+.home-subtitle-location {
+  font-family: "RecifeDisplay-Book";
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba($primary-color, 0.5);
+}

@@ -1,11 +1,10 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import { contentContainer } from './media.module.scss';
+import Layout from './Components/layout';
 
 const Media = () => {
   return (
     <Layout>
-      <div className={contentContainer}>
+      <div className="Media">
         <h1>Media.</h1>
       </div>
     </Layout>

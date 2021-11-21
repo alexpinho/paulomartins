@@ -1,9 +1,8 @@
 import React from 'react';
-import { header } from './header.module.scss';
 
 const Header = () => {
   return (
-    <div className={header}>
+    <div className="header">
       <h3>Paulo Martins</h3>
       <ul>
         <li>

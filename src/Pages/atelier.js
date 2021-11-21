@@ -1,11 +1,10 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import { contentContainer } from './atelier.module.scss';
+import Layout from './Components/layout';
 
 const Atelier = () => {
   return (
     <Layout>
-      <div className={contentContainer}>
+      <div className="atelier">
         <h1>Atelier.</h1>
       </div>
     </Layout>

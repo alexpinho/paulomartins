@@ -1,11 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Header from '../Header/header';
-import { appWrapper } from './layout.module.scss';
+import Header from './header';
 
 const Layout = ({ children }) => {
   return (
-    <div className={appWrapper}>
+    <div className="Layout">
       <Header/>
       {children}
     </div>

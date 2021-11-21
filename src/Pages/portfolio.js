@@ -1,11 +1,10 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import { contentContainer } from './portfolio.module.scss';
+import Layout from './Components/layout';
 
 const Portfolio = () => {
   return (
     <Layout>
-      <div className={contentContainer}>
+      <div className="Portfolio">
         <h1>Portfolio.</h1>
       </div>
     </Layout>

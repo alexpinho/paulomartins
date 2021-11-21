@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './screens/Home/home';
-import Atelier from './screens/Atelier/atelier';
-import Portfolio from './screens/Portfolio/portfolio';
-import Jobs from './screens/Jobs/jobs';
-import Media from './screens/Media/media';
-import Contacts from './screens/Contacts/contacts';
-import './styles/base.scss';
+import Home from './Pages/home';
+import Atelier from './Pages/atelier';
+import Portfolio from './Pages/portfolio';
+import Jobs from './Pages/jobs';
+import Media from './Pages/media';
+import Contacts from './Pages/contacts';
+import './styles/applications.scss';
 
 function App() {
   return (

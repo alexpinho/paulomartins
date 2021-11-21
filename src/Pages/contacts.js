@@ -1,11 +1,10 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import { contentContainer } from './contacts.module.scss';
+import Layout from './Components/layout';
 
 const Contacts = () => {
   return (
     <Layout>
-      <div className={contentContainer}>
+      <div className="contacts">
         <h1>Contacts.</h1>
       </div>
     </Layout>

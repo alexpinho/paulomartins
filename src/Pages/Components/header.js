@@ -2,8 +2,10 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="navbar">
+      <div className="logo">
       <h3>Paulo Martins</h3>
+      </div>
       <ul>
         <li>
           <a href='/'>Home</a>

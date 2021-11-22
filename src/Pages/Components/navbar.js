@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Header = () => {
+const navbar = () => {
   return (
     <div className="navbar">
-      <div className="logo">
-      <h3>Paulo Martins</h3>
-      </div>
+      <img src="images/logo.svg" className="logo" alt="" />
       <ul>
         <li>
           <a href='/'>Home</a>
@@ -30,4 +28,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default navbar;

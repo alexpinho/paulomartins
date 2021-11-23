@@ -39,19 +39,19 @@ function Navbar (){
         <li className="navbar-menu-elements">
           <a href='/' className="navbar-text">Home</a>
         </li>
-        <li className="navbar-menu-row">
+        <li className="navbar-menu-elements">
           <a href='/atelier' className="navbar-text">Atelier</a>
         </li>
-        <li className="navbar-menu-row">
+        <li className="navbar-menu-elements">
           <a href='/portfolio' className="navbar-text">Portfolio</a>
         </li>
-        <li className="navbar-menu-row">
+        <li className="navbar-menu-elements">
           <a href='/jobs' className="navbar-text">Jobs</a>
         </li>
-        <li className="navbar-menu-row">
+        <li className="navbar-menu-elements">
           <a href='/media' className="navbar-text">Media</a>
         </li>
-        <li className="navbar-menu-row">
+        <li className="navbar-menu-elements">
           <a href='/contacts' className="navbar-text">Contacts</a>
         </li>
       </ul>

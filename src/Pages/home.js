@@ -15,7 +15,7 @@ function Home(){
         </div>
 
         <div className="home-portfolio">
-        <div className="big-title-Regular">{t("home-portfolio-title")}</div>
+        <div className="title-Regular">{t("home-portfolio-title")}</div>
         </div>
         
       </div>

@@ -2,7 +2,7 @@
 
 .home {
   &-hero {
-    padding: 0 7rem;
+    padding: 0 7rem 24rem;
 
     &-banner {
       position: absolute;
@@ -14,7 +14,7 @@
   }
 
   &-portfolio {
-    margin-top: 23rem;
     border-top: 1px solid $primary-color;
+    padding: 0 7rem;
   }
 }

@@ -1,7 +1,7 @@
 @import "../../base.scss";
 
 .navbar {
-  background-color: blue;
+  //background-color: blue;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -11,8 +11,26 @@
   padding: 3rem 7rem;
 
   &-menu {
-    background-color: red;
+    //background-color: red;
     list-style: none;
+
+    &-row {
+      padding: 0.25rem 0;
+    }
+  }
+
+  &-btn-lang {
+    float: right;
+
+    &-pten {
+      background: none;
+      color: $primary-color;
+      border: none;
+      cursor: pointer;
+      outline: inherit;
+      padding-left: 0.5rem;
+      padding-bottom: 0.875rem;
+    }
   }
 
   &-logo {

@@ -6,8 +6,11 @@ function Home(){
   const { t } = useTranslation();
   return (
     <Layout>
-      <div className="Home">
-        <h1 className="big-title-Book">Architecture <br/> {t("hero-title")}</h1>
+      <div className="home">
+        <div className="hero">
+        <div className="big-title-Book">{t("hero-title-1")} <br/> 
+        {t("hero-title-2")} <span className="big-title-BookItalic">{t("hero-title-3")}</span></div>
+        </div>
       </div>
     </Layout>
   );

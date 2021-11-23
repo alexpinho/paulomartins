@@ -42,12 +42,13 @@ $secondary-color: #ffffff;
 }
 
 .navbar-text {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue-Light";
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   color: $primary-color;
   text-decoration: none;
   display: block;
+  text-align: end;
 }
 
 .home-subtitle {

@@ -2,4 +2,12 @@
 
 .hero {
   padding: 0 7rem;
+
+  &-banner {
+    position: fixed;
+    width: 47rem;
+    top: 28rem;
+    right: 7rem;
+    z-index: -1;
+  }
 }

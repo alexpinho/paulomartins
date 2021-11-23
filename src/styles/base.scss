@@ -41,6 +41,15 @@ $secondary-color: #ffffff;
   color: $primary-color;
 }
 
+.navbar-text {
+  font-family: "HelveticaNeue";
+  font-size: 1rem;
+  font-weight: 400;
+  color: $primary-color;
+  text-decoration: none;
+  display: block;
+}
+
 .home-subtitle {
   font-family: "RecifeDisplay-Book";
   font-size: 2rem;

@@ -1,11 +1,13 @@
 import React from 'react';
 import Layout from './Components/layout';
+import { useTranslation } from "react-i18next";
 
-const Home = () => {
+function Home(){
+  const { t } = useTranslation();
   return (
     <Layout>
       <div className="Home">
-        <h1 className="big-title-Book">Architecture <br/> &</h1>
+        <h1 className="big-title-Book">Architecture <br/> {t("hero-title")}</h1>
       </div>
     </Layout>
   );

@@ -36,7 +36,7 @@ function Navbar (){
       </div>
 
       <ul className="navbar-menu">
-        <li className="navbar-menu-row">
+        <li className="navbar-menu-elements">
           <a href='/' className="navbar-text">Home</a>
         </li>
         <li className="navbar-menu-row">

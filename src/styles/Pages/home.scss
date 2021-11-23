@@ -1,13 +1,20 @@
 @import "../base.scss";
 
-.hero {
-  padding: 0 7rem;
+.home {
+  &-hero {
+    padding: 0 7rem;
 
-  &-banner {
-    position: fixed;
-    width: 47rem;
-    top: 28rem;
-    right: 7rem;
-    z-index: -1;
+    &-banner {
+      position: absolute;
+      width: 47rem;
+      top: 28rem;
+      right: 7rem;
+      z-index: -1;
+    }
+  }
+
+  &-portfolio {
+    margin-top: 23rem;
+    border-top: 1px solid $primary-color;
   }
 }

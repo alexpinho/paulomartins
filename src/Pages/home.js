@@ -16,6 +16,9 @@ function Home(){
 
         <div className="home-portfolio">
         <div className="title-Regular">{t("home-portfolio-title")}</div>
+        <div className="home-portfolio-note">
+        <div className="text-note">{t("home-portfolio-text-note")}</div>
+        </div>
         </div>
         
       </div>

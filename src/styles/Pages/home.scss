@@ -16,5 +16,10 @@
   &-portfolio {
     border-top: 1px solid $primary-color;
     padding: 0 7rem;
+
+    &-note {
+      width: 20rem;
+      margin-left: 29rem;
+    }
   }
 }

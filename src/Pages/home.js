@@ -1,6 +1,8 @@
 import React from 'react';
-import Layout from './Components/Layout';
 import { useTranslation } from "react-i18next";
+import Layout from './Components/Layout';
+import CardProject from "./Components/CardProject";
+
 
 function Home(){
   const { t } = useTranslation();
@@ -25,24 +27,21 @@ function Home(){
                     <a href='/portfolio' className="text-detail">{t("home-portfolio-topage")}</a>
                 </div>
             </div>
-                <div className="home-portfolio-note">
-                    <div className="text-note">{t("home-portfolio-text-note")}</div>
-                </div>
-                <div className="home-portfolio-1">
-                    <img src="images/homeportfolio-1.png" className="home-portfolio-1-img" alt="" />
-                    <div className="home-portfolio-1-titles">
-                        <div className="home-subtitle">{t("home-portfolio-home1")}</div>
-                        <div className="home-subtitle-location">{t("home-portfolio-home1-location")}</div>
-                    </div>
-                </div>
-                <div className="home-portfolio-2">
+            <div className="home-portfolio-note">
+                <div className="text-note">{t("home-portfolio-text-note")}</div>
+            </div>
+            <CardProject
+            image="images/homeportfolio-1.png"
+            title={t("home-portfolio-home1")}
+            location={t("home-portfolio-home1-location")}/>
+               {/* <div className="home-portfolio-2">
                     <img src="images/homeportfolio-2.jpg" className="home-portfolio-2-img" alt="" />
                     <img src="images/homeportfolio-3.jpg" className="home-portfolio-3-img" alt="" />
                     <div className="home-portfolio-2-titles">
                         <div className="home-subtitle">{t("home-portfolio-home1")}</div>
                         <div className="home-subtitle-location">{t("home-portfolio-home1-location")}</div>
                     </div>
-                </div>
+                </div> */}
         </div>
         
       </div>

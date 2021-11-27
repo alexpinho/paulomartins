@@ -39,7 +39,8 @@ function Home(){
                 cardType="card-project"
                 image="images/homeportfolio-1.png"
                 title={t("card-project-title-1")}
-                location={t("card-project-location-1")}/>
+                location={t("card-project-location-1")}
+                country={t("card-project-country-1")}/>
 
                 <div className="row"> 
                     <CardProject
@@ -47,13 +48,15 @@ function Home(){
                     cardType="card-project"
                     image="images/homeportfolio-2.jpg"
                     title={t("card-project-title-2")}
-                    location={t("card-project-location-2")}/>
+                    location={t("card-project-location-2")}
+                    country={t("card-project-country-2")}/>
                     <CardProject
                     cardProjectClassName="col-xs-8"
                     cardType="card-project-down"
                     image="images/homeportfolio-3.jpg"
                     title={t("card-project-title-3")}
-                    location={t("card-project-location-3")}/>
+                    location={t("card-project-location-3")}
+                    country={t("card-project-country-3")}/>
                  </div>  
 
                 <CardProject
@@ -61,7 +64,8 @@ function Home(){
                 cardType="card-project"
                 image="images/homeportfolio-4.jpeg"
                 title={t("card-project-title-4")}
-                location={t("card-project-location-4")}/>
+                location={t("card-project-location-4")}
+                country={t("card-project-country-4")}/>
 
                 <div className="row"> 
                     <CardProject
@@ -69,16 +73,25 @@ function Home(){
                     cardType="card-project"
                     image="images/homeportfolio-5.jpg"
                     title={t("card-project-title-5")}
-                    location={t("card-project-location-5")}/>
+                    location={t("card-project-location-5")}
+                    country={t("card-project-country-5")}/>
                     <CardProject
                     cardProjectClassName="col-xs-6"
                     cardType="card-project-down"
                     image="images/homeportfolio-6.jpeg"
                     title={t("card-project-title-6")}
-                    location={t("card-project-location-6")}/>
+                    location={t("card-project-location-6")}
+                    country={t("card-project-country-6")}/>
                  </div>  
             </div>
         </div>
+
+        <div className="home-jobs">
+            <div className="row center-xs">
+                <div className="big-title-BookItalic home-jobs-text">{t("jobs-title-1")}</div>
+            </div>
+        </div>
+        
         
       </div>
     </Layout>

@@ -13,7 +13,7 @@
 
   &-portfolio {
     border-top: 1px solid $primary-color;
-    padding: 0 7rem;
+    padding: 0 7rem 7rem;
 
     &-intro {
       margin-top: 2rem;
@@ -39,6 +39,18 @@
   &-portfolio-projects {
     &-row-2 {
       display: flex;
+    }
+  }
+
+  &-jobs {
+    border-top: 1px solid $primary-color;
+    padding: 0 7rem;
+
+    &-text {
+      width: 70%;
+      word-break: normal;
+      margin-top: 14rem;
+      margin-bottom: 23rem;
     }
   }
 }

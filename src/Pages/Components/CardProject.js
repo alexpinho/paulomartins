@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardProject = ({cardType, cardProjectClassName, image, title, location, imgClassName}) => {
+const CardProject = ({cardType, cardProjectClassName, image, title, location, country}) => {
     return(
         <div className={cardProjectClassName}>
                     <div className={cardType}>
@@ -8,6 +8,7 @@ const CardProject = ({cardType, cardProjectClassName, image, title, location, im
                         <div className="card-project-body">
                             <div className="card-project-title">{title}</div>
                             <div className="card-project-location">{location}</div>
+                            <div className="card-project-location">{country}</div>
                         </div>
                     </div>
         </div>

@@ -11,37 +11,73 @@ function Home(){
       <div className="home">
 
         <div className="home-hero">
-            <img src="images/banner-1.jpg" className="home-hero-banner" alt="" />
+            <img src="images/banner-1.jpg" className="home-hero-banner col-xs-7" alt="" />
             <div className="big-title-Book">{t("hero-title-1")} <br/> 
             {t("hero-title-2")} <span className="big-title-BookItalic">{t("hero-title-3")}</span>
             </div>
         </div>
 
         <div className="home-portfolio">
-            <div className="home-portfolio-intro">
-                <div className="home-portfolio-intro-left">
-                    <div className="text-detail">2011-2021</div>
+            <div className="home-portfolio-intro row">
+                <div className="col start-xs">
+                    <div className="home-portfolio-intro-left text-detail">2011-2021</div>
                 </div>
+                <div className="col-xs-offset-3">
                 <div className="title-Regular">{t("home-portfolio-title")}</div>
-                <div className="home-portfolio-intro-right">
-                    <a href='/portfolio' className="text-detail">{t("home-portfolio-topage")}</a>
                 </div>
-            </div>
-            <div className="home-portfolio-note">
+                <div className="col end-xs">
+                    <a href='/portfolio' className="home-portfolio-intro-right text-detail">{t("home-portfolio-topage")}</a>
+                </div>
+            </div> 
+
+            <div className="home-portfolio-note col-xs-offset-4">
                 <div className="text-note">{t("home-portfolio-text-note")}</div>
             </div>
-            <CardProject
-            image="images/homeportfolio-1.png"
-            title={t("home-portfolio-home1")}
-            location={t("home-portfolio-home1-location")}/>
-               {/* <div className="home-portfolio-2">
-                    <img src="images/homeportfolio-2.jpg" className="home-portfolio-2-img" alt="" />
-                    <img src="images/homeportfolio-3.jpg" className="home-portfolio-3-img" alt="" />
-                    <div className="home-portfolio-2-titles">
-                        <div className="home-subtitle">{t("home-portfolio-home1")}</div>
-                        <div className="home-subtitle-location">{t("home-portfolio-home1-location")}</div>
-                    </div>
-                </div> */}
+            <div className="home-portfolio-projects">
+                <CardProject
+                cardProjectClassName="col-xs-offset-2 col-xs-7"
+                cardType="card-project"
+                image="images/homeportfolio-1.png"
+                title={t("card-project-title-1")}
+                location={t("card-project-location-1")}/>
+
+                <div className="row"> 
+                    <CardProject
+                    cardProjectClassName="col-xs-4"
+                    cardType="card-project"
+                    image="images/homeportfolio-2.jpg"
+                    title={t("card-project-title-2")}
+                    location={t("card-project-location-2")}/>
+                    <CardProject
+                    cardProjectClassName="col-xs-8"
+                    cardType="card-project-down"
+                    image="images/homeportfolio-3.jpg"
+                    title={t("card-project-title-3")}
+                    location={t("card-project-location-3")}/>
+                 </div>  
+
+                <CardProject
+                cardProjectClassName="col-xs-11"
+                cardType="card-project"
+                image="images/homeportfolio-4.jpeg"
+                title={t("card-project-title-4")}
+                location={t("card-project-location-4")}/>
+
+                <div className="row"> 
+                    <CardProject
+                    cardProjectClassName="col-xs-offset-1 col-xs-5"
+                    cardType="card-project"
+                    image="images/homeportfolio-5.jpg"
+                    title={t("card-project-title-5")}
+                    location={t("card-project-location-5")}/>
+                    <CardProject
+                    cardProjectClassName="col-xs-6"
+                    cardType="card-project-down"
+                    image="images/homeportfolio-6.jpeg"
+                    title={t("card-project-title-6")}
+                    location={t("card-project-location-6")}/>
+                 </div>  
+            </div>
         </div>
         
       </div>

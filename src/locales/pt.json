@@ -7,7 +7,17 @@
         "home-portfolio-title": "Portfólio",
         "home-portfolio-topage": "Ver tudo",
         "home-portfolio-text-note": "Seleção de projectos realizados pelo atelier em diferentes contextos, escalas e condicionantes.",
-        "home-portfolio-home1": "Beira mar casa",
-        "home-portfolio-home1-location": "Aveiro Portugal"
+        "card-project-title-1": "Beira mar casa",
+        "card-project-location-1": "Aveiro Portugal",
+        "card-project-title-2": "H038",
+        "card-project-location-2": "Águeda Portugal",
+        "card-project-title-3": "Cantina ATZ",
+        "card-project-location-3": "Águeda Portugal",
+        "card-project-title-4": "Casa Pisco",
+        "card-project-location-4": "Águeda Portugal",
+        "card-project-title-5": "Casa dos Oleiros",
+        "card-project-location-5": "Castelo Branco Portugal",
+        "card-project-title-6": "Pavilhão Indústrial PLANSTONE",
+        "card-project-location-6": "Águeda Portugal"
     }
 }

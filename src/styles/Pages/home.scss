@@ -4,9 +4,9 @@
 
     &-banner {
       position: absolute;
-      width: 47rem;
       top: 28rem;
       right: 7rem;
+      padding: 0;
       z-index: -1;
     }
   }
@@ -16,7 +16,6 @@
     padding: 0 7rem;
 
     &-intro {
-      display: flex;
       margin-top: 2rem;
     }
 
@@ -32,22 +31,14 @@
     }
 
     &-note {
-      width: 20rem;
-      margin-left: 29rem;
+      width: 21rem;
       margin-top: 2rem;
     }
+  }
 
-    &-1 {
-      &-img {
-        width: 47rem;
-        margin-left: 9.5rem;
-        margin-top: 4.25rem;
-      }
-
-      &-titles {
-        margin-top: 1rem;
-        margin-left: 9.5rem;
-      }
+  &-portfolio-projects {
+    &-row-2 {
+      display: flex;
     }
   }
 }

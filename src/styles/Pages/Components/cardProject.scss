@@ -1,12 +1,13 @@
 .card-project {
-  &-img {
-    width: 47rem;
-    margin-left: 9.5rem;
-    margin-top: 4.25rem;
-  }
+  margin-top: 4.25rem;
 
+  &-down {
+    margin-top: 8.5rem;
+  }
+  &-img {
+    width: 100%;
+  }
   &-body {
     margin-top: 1rem;
-    margin-left: 9.5rem;
   }
 }

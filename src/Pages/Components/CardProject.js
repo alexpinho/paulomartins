@@ -13,8 +13,6 @@ const CardProject = ({cardType, cardProjectClassName, image, title, location, co
                     </div>
         </div>
     );
-
-
 };
 
 export default CardProject;

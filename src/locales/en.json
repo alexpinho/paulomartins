@@ -29,7 +29,16 @@
 
         "jobs-title-1": "We are looking...",
 
-        "home-atelier-title": "Awards"
+        "home-awards-title": "Awards",
+        "card-award-title-1": "Honorable mention architizer 2021 - Pisco house",
+        "card-award-date-1": "June 2021",
+        "card-award-title-2": "Winner uni refurbishment’20 - Beira Mar house",
+        "card-award-date-2": "December 2020",
+        "card-award-title-3": "Palmarés technal 2019 honorable mention - Beira Mar House",
+        "card-award-date-3": "December 2020",
+        "card-award-title-4": "European property awards - architecture",
+        "card-award-date-4": "December 2020"
+        
 
     }
 }

@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  overflow: overlay;
+}
+
 $primary-color: #1e1e1e;
 $secondary-color: #ffffff;
 
@@ -39,7 +44,6 @@ $secondary-color: #ffffff;
   font-weight: 400;
   text-transform: uppercase;
   color: $primary-color;
-  //margin-left: 19rem;
 }
 
 .text-note {
@@ -54,6 +58,13 @@ $secondary-color: #ffffff;
   font-family: "HelveticaNeue-Light";
   font-size: 0.75rem;
   font-weight: 300;
+  color: $primary-color;
+}
+
+.text {
+  font-family: "HelveticaNeue";
+  font-size: 1.25rem;
+  font-weight: 400;
   color: $primary-color;
 }
 
@@ -79,5 +90,4 @@ $secondary-color: #ffffff;
   font-size: 1.5rem;
   font-weight: 400;
   color: rgba($primary-color, 0.5);
-  //width: -webkit-min-content;
 }

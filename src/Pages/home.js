@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import Layout from './Components/Layout';
 import CardProject from "./Components/CardProject";
+import CardAward from "./Components/CardAward";
 
 
 function Home(){
@@ -19,10 +20,10 @@ function Home(){
 
         <div className="home-portfolio">
             <div className="home-portfolio-intro row">
-                <div className="col start-xs">
+                <div className="col-xs-1">
                     <div className="home-portfolio-intro-left text-detail">2011-2021</div>
                 </div>
-                <div className="col-xs-offset-3">
+                <div className="col-xs-offset-2">
                     <div className="title-Regular">{t("home-portfolio-title")}</div>
                 </div>
                 <div className="col end-xs">
@@ -30,7 +31,7 @@ function Home(){
                 </div>
             </div> 
 
-            <div className="home-portfolio-note col-xs-offset-4">
+            <div className="home-portfolio-note col-xs-offset-4 col-xs-4">
                 <div className="text-note">{t("home-portfolio-text-note")}</div>
             </div>
             <div className="home-portfolio-projects">
@@ -92,19 +93,39 @@ function Home(){
             </div>
         </div>
 
-        <div className="home-atelier">
-            <div className="home-atelier-intro row">
-                <div className="col start-xs">
-                    <div className="home-atelier-intro-left text-detail">2017-2021</div>
+        <div className="home-awards">
+            <div className="home-awards-intro row">
+                <div className="col-xs-1">
+                    <div className="home-awards-intro-left text-detail">2017-2021</div>
                 </div>
-                <div className="col-xs-offset-3">
-                    <div className="title-Regular">{t("home-atelier-title")}</div>
+                <div className="col-xs-offset-2">
+                    <div className="title-Regular">{t("home-awards-title")}</div>
                 </div>
                 <div className="col end-xs">
-                    <a href='/portfolio' className="home-atelier-intro-right text-detail">{t("text-topage")}</a>
+                    <a href='/media' className="home-awards-intro-right text-detail">{t("text-topage")}</a>
                 </div>
             </div>
-        </div>
+
+            <div className="home-awards-wrapper">
+                <CardAward
+                image="images/architizer-2021.png"
+                title={t("card-award-title-1")}
+                date={t("card-award-date-1")}/>
+                <CardAward
+                image="images/refurbishment-2020.png"
+                title={t("card-award-title-2")}
+                date={t("card-award-date-2")}/>
+                <CardAward
+                image="images/honorable_mention-beiramarhouse.png"
+                title={t("card-award-title-3")}
+                date={t("card-award-date-3")}/>
+                <CardAward
+                image="images/european_awards-2020.png"
+                title={t("card-award-title-4")}
+                date={t("card-award-date-4")}/>
+            </div>
+
+        </div> 
         
         
       </div>

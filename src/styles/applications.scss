@@ -1,8 +1,9 @@
 @import "./variables.scss";
 @import "./flexboxgrid.css";
 
-@import "./Pages/Components/navbar.scss";
+@import "./Pages/Components/navbar/navbar.scss";
 
 @import "./Pages/Components/cardProject.scss";
+@import "./Pages/Components/cardAward.scss";
 
 @import "./Pages/home.scss";

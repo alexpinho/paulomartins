@@ -4,8 +4,9 @@
         "hero-title-2": "&",
         "hero-title-3": "Design",
 
+        "text-topage": "View all",
+
         "home-portfolio-title": "Portfolio",
-        "home-portfolio-topage": "View all",
         "home-portfolio-text-note": "Selection of projects carried out by the studio in different contexts, different scales and with varying conditions.",
         "card-project-title-1": "Beira mar house",
         "card-project-location-1": "Aveiro",
@@ -25,6 +26,10 @@
         "card-project-title-6": "Pavilhão Indústrial PLANSTONE",
         "card-project-location-6": "Águeda",
         "card-project-country-6": "Portugal",
-        "jobs-title-1": "We are looking..."
+
+        "jobs-title-1": "We are looking...",
+
+        "home-atelier-title": "Awards"
+
     }
 }

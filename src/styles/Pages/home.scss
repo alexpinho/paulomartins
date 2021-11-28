@@ -53,4 +53,24 @@
       margin-bottom: 23rem;
     }
   }
+
+  &-atelier {
+    border-top: 1px solid $primary-color;
+    padding: 0 7rem;
+
+    &-intro {
+      margin-top: 2rem;
+    }
+
+    &-intro-left {
+      position: absolute;
+      margin-top: 1rem;
+    }
+
+    &-intro-right {
+      position: absolute;
+      right: 7rem;
+      margin-top: 1rem;
+    }
+  }
 }

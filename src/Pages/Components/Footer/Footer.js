@@ -3,17 +3,12 @@ import { useTranslation } from "react-i18next";
 
 function Footer (){
     const { i18n } = useTranslation();
-
-    const openInNewTab = (url) => {
-        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-        if (newWindow) newWindow.opener = null
-      }
     
     return (
       <div className="footer">
             <img src="images/logo-white.svg" className="footer-logo" alt="" />
 
-            <form className="footer-form-newsletter" onSubmit="">
+            <form className="footer-form-newsletter">
                 <div className="footer-text text"> JOIN OUR NEWSLETTER </div>
                 <div className="footer-form-newsletter-area">
                 <input type="email" className="footer-form-newsletter-input " placeholder="Email"/>

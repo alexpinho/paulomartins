@@ -9,6 +9,17 @@
 body {
   width: 100%;
   overflow: overlay;
+  background-color: white;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html,
+body {
+  &,
+  * {
+    cursor: none;
+  }
 }
 
 $primary-color: #1e1e1e;

@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 
-
-
 function Navbar (){
   const { i18n } = useTranslation();
   

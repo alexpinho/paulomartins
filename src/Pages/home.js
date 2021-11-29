@@ -94,37 +94,59 @@ function Home(){
         </div>
 
         <div className="home-awards">
-            <div className="home-awards-intro row">
-                <div className="col-xs-1">
-                    <div className="home-awards-intro-left text-detail">2017-2021</div>
-                </div>
-                <div className="col-xs-offset-2">
-                    <div className="title-Regular">{t("home-awards-title")}</div>
-                </div>
-                <div className="col end-xs">
-                    <a href='/media' className="home-awards-intro-right text-detail">{t("text-topage")}</a>
-                </div>
-            </div>
+          <div className="home-awards-intro row">
+             <div className="col-xs-1">
+                <div className="home-awards-intro-left text-detail">2017-2021</div>
+              </div>
+              <div className="col-xs-offset-2">
+                <div className="title-Regular">{t("home-awards-title")}</div>
+             </div>
+             <div className="col end-xs">
+                <a href='/media' className="home-awards-intro-right text-detail">{t("text-topage")}</a>
+             </div>
+          </div>
 
-            <div className="home-awards-wrapper">
-                <CardAward
+          <div className="home-awards-wrapper">
+              <CardAward
                 image="images/architizer-2021.png"
                 title={t("card-award-title-1")}
                 date={t("card-award-date-1")}/>
-                <CardAward
+              <CardAward
                 image="images/refurbishment-2020.png"
                 title={t("card-award-title-2")}
                 date={t("card-award-date-2")}/>
-                <CardAward
+              <CardAward
                 image="images/honorable_mention-beiramarhouse.png"
                 title={t("card-award-title-3")}
                 date={t("card-award-date-3")}/>
-                <CardAward
+              <CardAward
                 image="images/european_awards-2020.png"
                 title={t("card-award-title-4")}
                 date={t("card-award-date-4")}/>
-            </div>
 
+              <CardAward
+                image="images/architizer-2021.png"
+                title={t("card-award-title-1")}
+                date={t("card-award-date-1")}/>
+              <CardAward
+                image="images/refurbishment-2020.png"
+                title={t("card-award-title-2")}
+                date={t("card-award-date-2")}/>
+              <CardAward
+                image="images/honorable_mention-beiramarhouse.png"
+                title={t("card-award-title-3")}
+                date={t("card-award-date-3")}/>
+              <CardAward
+                image="images/european_awards-2020.png"
+                title={t("card-award-title-4")}
+                date={t("card-award-date-4")}/>
+          </div>
+        </div> 
+
+        <div className="home-contact">
+            <div className="row center-xs">
+                <div className="big-title-Regular home-contact-text">{t("contact-title-1")}</div>
+            </div>
         </div> 
         
         

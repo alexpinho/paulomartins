@@ -47,7 +47,6 @@
 
     &-text {
       width: 70%;
-      word-break: normal;
       margin-top: 14rem;
       margin-bottom: 23rem;
     }
@@ -55,10 +54,11 @@
 
   &-awards {
     border-top: 1px solid $primary-color;
+    padding-bottom: 7rem;
 
     &-intro {
       margin-top: 2rem;
-      padding: 0 7rem;
+      margin: 2rem 7rem 0;
 
       &-left {
         position: absolute;
@@ -81,6 +81,16 @@
       &::-webkit-scrollbar {
         width: 0;
       }
+    }
+  }
+
+  &-contact {
+    border-top: 1px solid $primary-color;
+    padding: 0 7rem;
+
+    &-text {
+      margin-top: 23rem;
+      margin-bottom: 14rem;
     }
   }
 }

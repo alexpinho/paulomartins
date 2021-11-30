@@ -1,0 +1,16 @@
+@import "../base.scss";
+
+.portfolio {
+  &-hero {
+    padding: 2rem 7rem 2rem;
+  }
+
+  &-projects {
+    padding-left: 6.875rem;
+    padding-right: 6.875rem;
+  }
+
+  .row {
+    padding-bottom: 0.75rem;
+  }
+}

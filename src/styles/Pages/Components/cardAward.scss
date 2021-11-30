@@ -1,0 +1,18 @@
+.card-award {
+  margin-top: 4.25rem;
+  padding-right: 1rem;
+
+  &-img {
+    width: 100%;
+  }
+
+  &-body {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  &-date {
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+  }
+}

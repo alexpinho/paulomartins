@@ -1,0 +1,96 @@
+.home {
+  &-hero {
+    padding: 0 7rem 24rem;
+
+    &-banner {
+      position: absolute;
+      top: 28rem;
+      right: 7rem;
+      padding: 0;
+      z-index: -1;
+    }
+  }
+
+  &-portfolio {
+    border-top: 1px solid $primary-color;
+    padding: 0 7rem 7rem;
+
+    &-intro {
+      margin-top: 2rem;
+
+      &-left {
+        position: absolute;
+        margin-top: 1rem;
+      }
+
+      &-right {
+        position: absolute;
+        right: 7rem;
+        margin-top: 1rem;
+      }
+    }
+
+    &-note {
+      margin-top: 2rem;
+    }
+  }
+
+  &-portfolio-projects {
+    &-row-2 {
+      display: flex;
+    }
+  }
+
+  &-jobs {
+    border-top: 1px solid $primary-color;
+    padding: 0 7rem;
+
+    &-text {
+      width: 70%;
+      margin-top: 14rem;
+      margin-bottom: 23rem;
+    }
+  }
+
+  &-awards {
+    border-top: 1px solid $primary-color;
+    padding-bottom: 7rem;
+
+    &-intro {
+      margin-top: 2rem;
+      margin: 2rem 7rem 0;
+
+      &-left {
+        position: absolute;
+        margin-top: 1rem;
+      }
+
+      &-right {
+        position: absolute;
+        right: 7rem;
+        margin-top: 1rem;
+      }
+    }
+
+    &-wrapper {
+      padding-left: 7rem;
+      width: 100%;
+      display: flex;
+      overflow-x: auto;
+
+      &::-webkit-scrollbar {
+        width: 0;
+      }
+    }
+  }
+
+  &-contact {
+    border-top: 1px solid $primary-color;
+    padding: 0 7rem;
+
+    &-text {
+      margin-top: 23rem;
+      margin-bottom: 14rem;
+    }
+  }
+}

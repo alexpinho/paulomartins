@@ -6,12 +6,28 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  overflow: overlay;
+  background-color: white;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html,
+body {
+  &,
+  * {
+    cursor: none;
+  }
+}
+
 $primary-color: #1e1e1e;
 $secondary-color: #ffffff;
 
 .big-title-Book {
   font-family: "RecifeDisplay-Book";
-  font-size: 10rem;
+  font-size: 9rem;
   line-height: 10.5rem;
   font-weight: 400;
   color: $primary-color;
@@ -19,7 +35,7 @@ $secondary-color: #ffffff;
 
 .big-title-BookItalic {
   font-family: "RecifeDisplay-BookItalic";
-  font-size: 10rem;
+  font-size: 9rem;
   line-height: 10.5rem;
   font-weight: 400;
   color: $primary-color;
@@ -27,7 +43,7 @@ $secondary-color: #ffffff;
 
 .big-title-Regular {
   font-family: "HelveticaNeue";
-  font-size: 10rem;
+  font-size: 9rem;
   font-weight: 400;
   text-transform: uppercase;
   color: $primary-color;
@@ -41,14 +57,46 @@ $secondary-color: #ffffff;
   color: $primary-color;
 }
 
-.home-subtitle {
+.text-note {
+  font-family: "HelveticaNeue-Light";
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+  color: rgba($primary-color, 0.5);
+}
+
+.text-detail {
+  font-family: "HelveticaNeue-Light";
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: $primary-color;
+}
+
+.text {
+  font-family: "HelveticaNeue";
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: $primary-color;
+}
+
+.navbar-text {
+  font-family: "HelveticaNeue-Light";
+  font-size: 1rem;
+  font-weight: 300;
+  color: $primary-color;
+  text-decoration: none;
+  display: block;
+  text-align: end;
+}
+
+.card-project-title {
   font-family: "RecifeDisplay-Book";
   font-size: 2rem;
   font-weight: 400;
   color: $primary-color;
 }
 
-.home-subtitle-location {
+.card-project-location {
   font-family: "RecifeDisplay-Book";
   font-size: 1.5rem;
   font-weight: 400;

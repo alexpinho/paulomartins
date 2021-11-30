@@ -1,12 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Header from './header';
+import Navbar from './Navbar/Navbar';
+import Footer from './Footer/Footer';
+import CustomCursor from "./CustomCursor/CustomCursor";
+
 
 const Layout = ({ children }) => {
   return (
     <div className="Layout">
-      <Header/>
+      <CustomCursor />
+      <Navbar/>
       {children}
+      <Footer/>
     </div>
   );
 };

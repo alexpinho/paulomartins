@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import Layout from './Components/Layout';
+import Layout from './Components/layout';
 import CardProject from "./Components/CardProject";
 import CardAward from "./Components/CardAward";
 

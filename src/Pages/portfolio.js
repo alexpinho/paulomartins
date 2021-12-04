@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './Components/layout';
 import Data from "./portfolio-images.json";
 
+
 const Portfolio = () => {
   return (
     <Layout>

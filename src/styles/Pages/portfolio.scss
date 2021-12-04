@@ -1,16 +1,27 @@
-@import "../base.scss";
-
 .portfolio {
   &-hero {
     padding: 2rem 7rem 2rem;
   }
 
-  &-projects {
-    padding-left: 6.875rem;
-    padding-right: 6.875rem;
+  .text-note {
+    padding-top: 6.375rem;
   }
 
-  .row {
-    padding-bottom: 0.75rem;
+  &-projects {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    width: fit-content;
+
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+
+    img {
+      max-width: 100%;
+      width: 100%;
+      height: 11.75rem;
+      object-fit: cover;
+    }
   }
 }

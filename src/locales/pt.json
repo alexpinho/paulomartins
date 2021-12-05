@@ -3,9 +3,7 @@
         "hero-title-1": "Arquitectura",
         "hero-title-2": "&",
         "hero-title-3": "Design",
-
         "text-topage": "Ver tudo",
-
         "home-portfolio-title": "Portfólio",
         "home-portfolio-text-note": "Seleção de projectos realizados pelo atelier em diferentes contextos, escalas e condicionantes.",
         "card-project-title-1": "Beira mar casa",
@@ -26,9 +24,7 @@
         "card-project-title-6": "Pavilhão Indústrial PLANSTONE",
         "card-project-location-6": "Águeda",
         "card-project-country-6": "Portugal",
-
         "jobs-title-1": "Estamos à procura...",
-
         "home-awards-title": "Prémios",
         "card-award-title-1": "Menção honrosa architizer 2021 - Casa Pisco",
         "card-award-date-1": "Junho 2021",
@@ -38,7 +34,16 @@
         "card-award-date-3": "Dezembro 2020",
         "card-award-title-4": "European property awards - architecture",
         "card-award-date-4": "Dezembro 2020",
+        "contact-title-1": "Entra em contacto",
 
-        "contact-title-1": "Entra em contacto"
+
+        "jobs-jobs-title": "Jobs",
+        "jobs-text-note": "Estamos sempre à procura de arquitetos criativos que se identifiquem com o nosso trabalho do nosso atelier. Se estiver interessado em conhecer-nos e colaborar connosco, preencha o formulário abaixo de acordo com as ofertas disponíveis. Após análise da candidatura, só entramos em contacto com os candidatos selecionados, pelo que lhe agradecemos antecipadamente pelo o interesse e compreensão.",
+        "card-jobs-see":"ver +",
+        "card-jobs-title-1": "Arquiteto",
+        "card-jobs-description-1": "Procuramos profissionais para trabalharem no nosso atelier de Aveiro, integrando a nossa equipa de trabalho. Ao juntar-se à nossa equipa, estará a desenvolver vários projetos e será responsável por responder a prazos estabelecidos e a ser comprometido com o seu rigor.",
+        "card-jobs-title-2": "Arquiteto Sénior",
+        "card-jobs-title-3": "Artista 3D"
+
     }
 }

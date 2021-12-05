@@ -7,6 +7,7 @@
         "text-topage": "View all",
 
         "home-portfolio-title": "Portfolio",
+        
         "home-portfolio-text-note": "Selection of projects carried out by the studio in different contexts, different scales and with varying conditions.",
         "card-project-title-1": "Beira mar house",
         "card-project-location-1": "Aveiro",
@@ -39,8 +40,16 @@
         "card-award-title-4": "European property awards - architecture",
         "card-award-date-4": "December 2020",
 
-        "contact-title-1": "Get in touch"
-        
+        "contact-title-1": "Get in touch",
+
+        "jobs-jobs-title": "Jobs",
+        "jobs-text-note": "We are always looking for creative architects who identify with our studio work. If you are interested in meeting us and collaborating with us, fill out the form below according to the available offers. After analyzing the application, we only get in touch with the selected candidates, so we thank you in advance for your interest and understanding.",
+        "card-jobs-see":"read +",
+        "card-jobs-title-1": "Architect",
+        "card-jobs-description-1": "We are looking for professionals to be based at our Aveiro office, to join our teamwork. By joining our team, you will be responsible for answering thought the deadlines established and to be compromised with its stringency.",
+        "card-jobs-title-2": "Senior Architect",
+        "card-jobs-title-3": "3D Artist"
+  
 
     }
 }

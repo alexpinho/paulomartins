@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from './Components/layout';
+import CardPublication from "./Components/CardPublication";
+import { t } from 'i18next';
 
 const Media = () => {
   return (
@@ -17,7 +19,33 @@ const Media = () => {
 
               {/* FALTA OS BOTOES COM OS FILTROS PARA ESCOLHER A ORDEM DOS PROJETOS*/}
 <div className="media-publication">
+  <div className="row">
+    
+    <CardPublication
+      image="images/pub1.jpg"
+      title={t("card-publication-title")}
+      local={t("card-publication-local")}
+       date={t("card-publication-date")}/>
 
+    <CardPublication
+          image="images/pub2.jpg"
+          title={t("card-publication-title-1")}
+          local={t("card-publication-local-1")}
+          date={t("card-publication-date-1")}/>
+
+    <CardPublication
+              image="images/pub3.jpg"
+              title={t("card-publication-title-2")}
+              local={t("card-publication-local-2")}
+              date={t("card-publication-date-2")}/>
+
+    <CardPublication
+              image="images/pub4.jpg"
+              title={t("card-publication-title-3")}
+              local={t("card-publication-local-3")}
+              date={t("card-publication-date-3")}/>
+
+  </div>
 
 
 

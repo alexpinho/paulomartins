@@ -9,7 +9,7 @@
     padding-top: 6.375rem;
   }
 
-  &-projects {
+  &-projects-card {
     padding-left: 7rem;
     padding-right: 7rem;
     width: fit-content;
@@ -24,6 +24,20 @@
       width: 100%;
       height: 11.75rem;
       object-fit: cover;
+    }
+
+    &-info {
+      display: flex;
+      justify-content: center;
+      background: rgba(255, 0, 0, 0.8);
+    }
+
+    //&-info {
+    // display: none;
+    // }
+
+    &-info:hover {
+      display: flex;
     }
   }
 }

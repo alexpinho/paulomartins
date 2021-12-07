@@ -1,0 +1,9 @@
+$breakpoints: (
+  small: 420px,
+  medium: 1060px,
+);
+
+$mappy-queries: (
+  phone: mappy-bp(max-width small),
+  tablet: mappy-bp(small large),
+);

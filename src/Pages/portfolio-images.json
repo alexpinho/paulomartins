@@ -2,7 +2,8 @@
     {
     "id":0,
     "name":"imagem1",
-    "src":"images/imagem1.jpg"
+    "src":"images/imagem1.jpg",
+    "link":"/"
 },
 
 {

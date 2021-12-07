@@ -22,7 +22,9 @@ const Portfolio = () => {
               Data.map(image =>{
                 return(
                   <div key={image.id}>      
+                  <a href={image.link}>
                   <img src={image.src} alt={image.name}/>
+                  </a>
                   </div>
                 )
               })

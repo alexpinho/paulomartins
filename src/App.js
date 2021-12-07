@@ -8,7 +8,8 @@ import Portfolio from './Pages/portfolio';
 import Jobs from './Pages/jobs';
 import Media from './Pages/media';
 import Contacts from './Pages/contacts';
-import './styles/applications.scss';
+import individualproject from './Pages/individualproject';
+import './styles/applications.scss'
 import pt from "./locales/pt.json";
 import en from "./locales/en.json";
 
@@ -31,6 +32,7 @@ function App() {
         <Route path='/jobs' component={Jobs} exact />
         <Route path='/media' component={Media} exact />
         <Route path='/contacts' component={Contacts} exact />
+        <Route path='/individualproject' component={individualproject} exact />
       </Switch>
     </Router>
   );

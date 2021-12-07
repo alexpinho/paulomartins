@@ -1,0 +1,61 @@
+.contacts {
+  &-hero {
+    padding: 0 7rem 0rem;
+  }
+
+  .row {
+    display: flex;
+    padding: 0 7rem 7rem;
+    margin-top: 4rem;
+
+    .text {
+      text-transform: uppercase;
+      font-size: 1rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .text-note {
+      margin-bottom: 1.5rem;
+    }
+
+    .line-1 {
+      margin-top: 1.5rem;
+      padding-right: 20rem;
+      //border-bottom: 1px solid rgba($primary-color, 0.5);
+    }
+
+    .line-2 {
+      margin-top: 1.5rem;
+      padding-right: 44.6rem;
+      //border-bottom: 1px solid rgba($primary-color, 0.5);
+    }
+  }
+
+  &-form {
+    display: flex;
+    gap: 3.7rem;
+
+    &-message {
+      padding-top: 4.2rem;
+      position: absolute;
+    }
+  }
+
+  &-portugal {
+    border-top: 1px solid $primary-color;
+    padding: 0 7rem 32rem;
+
+    .title {
+      margin-top: 2rem;
+    }
+  }
+
+  &-brasil {
+    border-top: 1px solid $primary-color;
+    padding: 0 7rem 32rem;
+
+    .title {
+      margin-top: 2rem;
+    }
+  }
+}

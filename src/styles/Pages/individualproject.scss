@@ -1,0 +1,17 @@
+.individualproject {
+  padding: 0 7rem 2rem 7rem;
+
+  &-hero {
+    padding-bottom: 10rem;
+    img {
+      position: absolute;
+      top: 27rem;
+      right: 7rem;
+      padding: 0;
+    }
+
+    .text-note {
+      padding-top: 5rem;
+    }
+  }
+}

@@ -18,17 +18,22 @@ const Portfolio = () => {
         {/* FALTA OS BOTOES COM OS FILTROS PARA ESCOLHER A ORDEM DOS PROJETOS*/}
         
           <div className="portfolio-projects">
+            <div className="portfolio-projects-card">
             {
               Data.map(image =>{
                 return(
                   <div key={image.id}>      
-                  <a href={image.link}>
+                  {/*<a href={image.link}>*/}
                   <img src={image.src} alt={image.name}/>
-                  </a>
+                  <div className="portfolio-projects-card-info text">
+                  <p>{image.name}</p>
+                  </div>
+                 {/* </a>*/}
                   </div>
                 )
               })
             }   
+            </div>
           </div>
       </div>
     </Layout>

@@ -61,7 +61,7 @@ $secondary-color: #ffffff;
   font-family: "HelveticaNeue-Light";
   font-size: 1rem;
   font-weight: 300;
-  line-height: 1.25rem;
+  line-height: 1.5rem; //24px
   color: rgba($primary-color, 0.5);
 }
 
@@ -101,4 +101,10 @@ $secondary-color: #ffffff;
   font-size: 1.5rem;
   font-weight: 400;
   color: rgba($primary-color, 0.5);
+}
+
+.card-jobs-title {
+  font-family: "HelveticaNeue";
+  font-size: 2rem; //32px
+  font-weight: 400;
 }

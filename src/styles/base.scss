@@ -28,17 +28,43 @@ $secondary-color: #ffffff;
 .big-title-Book {
   font-family: "RecifeDisplay-Book";
   font-size: 9rem;
-  line-height: 10.5rem;
+  line-height: auto;
   font-weight: 400;
   color: $primary-color;
+
+  @include mappy-bp(max-width large) {
+    font-size: 7rem;
+  }
+  @include mappy-bp(max-width medium) {
+    font-size: 5rem;
+  }
+  @include mappy-bp(max-width small) {
+    font-size: 4rem;
+  }
+  @include mappy-bp(max-width x-small) {
+    font-size: 3rem;
+  }
 }
 
 .big-title-BookItalic {
   font-family: "RecifeDisplay-BookItalic";
   font-size: 9rem;
-  line-height: 10.5rem;
+  line-height: auto;
   font-weight: 400;
   color: $primary-color;
+
+  @include mappy-bp(max-width large) {
+    font-size: 7rem;
+  }
+  @include mappy-bp(max-width medium) {
+    font-size: 5rem;
+  }
+  @include mappy-bp(max-width small) {
+    font-size: 4rem;
+  }
+  @include mappy-bp(max-width x-small) {
+    font-size: 3rem;
+  }
 }
 
 .big-title-Regular {

@@ -10,6 +10,13 @@
   z-index: 2;
   padding: 3rem 7rem;
 
+  @include mappy-query(tablet) {
+    padding: 2rem 3rem;
+  }
+  @include mappy-query(phone) {
+    padding: 1rem 1rem;
+  }
+
   &-menu {
     //background-color: red;
     list-style: none;

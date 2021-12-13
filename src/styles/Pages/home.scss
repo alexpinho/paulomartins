@@ -2,12 +2,12 @@
   &-hero {
     padding: 0 7rem 24rem;
 
-    @include mappy-query(tablet) {
-      padding: 0 3rem;
-    }
-    @include mappy-query(phone) {
-      padding: 0 1rem;
-    }
+    // @include mappy-query(tablet) {
+    //   padding: 0 3rem;
+    // }
+    // @include mappy-query(phone) {
+    //   padding: 0 1rem;
+    // }
 
     &-banner {
       position: absolute;
@@ -16,10 +16,10 @@
       padding: 0;
       z-index: -1;
 
-      @include mappy-query(tablet) {
-        top: 22rem;
-        right: 3rem;
-      }
+      // @include mappy-query(tablet) {
+      //   top: 22rem;
+      //   right: 3rem;
+      // }
     }
   }
 

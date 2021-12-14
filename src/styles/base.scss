@@ -32,16 +32,16 @@ $secondary-color: #ffffff;
   font-weight: 400;
   color: $primary-color;
 
-  @include mappy-bp(max-width large) {
+  @include xl {
     font-size: 7rem;
   }
-  @include mappy-bp(max-width medium) {
+  @include lg {
     font-size: 5rem;
   }
-  @include mappy-bp(max-width small) {
+  @include md {
     font-size: 4rem;
   }
-  @include mappy-bp(max-width x-small) {
+  @include sm {
     font-size: 3rem;
   }
 }
@@ -53,16 +53,16 @@ $secondary-color: #ffffff;
   font-weight: 400;
   color: $primary-color;
 
-  @include mappy-bp(max-width large) {
+  @include xl {
     font-size: 7rem;
   }
-  @include mappy-bp(max-width medium) {
+  @include lg {
     font-size: 5rem;
   }
-  @include mappy-bp(max-width small) {
+  @include md {
     font-size: 4rem;
   }
-  @include mappy-bp(max-width x-small) {
+  @include sm {
     font-size: 3rem;
   }
 }

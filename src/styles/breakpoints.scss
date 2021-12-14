@@ -1,11 +1,31 @@
-$breakpoints: (
-  x-small: 420px,
-  small: 660px,
-  medium: 800px,
-  large: 1060px,
-);
+$screen-sm: 420px;
 
-// $mappy-queries: (
-//   phone: mappy-bp(max-width x-small),
-//   tablet: mappy-bp(x-small large),
-// );
+$screen-md: 660px;
+
+$screen-lg: 800px;
+
+$screen-xl: 1060px;
+
+@mixin sm {
+  @media (max-width: #{$screen-sm}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$screen-md}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: #{$screen-lg}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (max-width: #{$screen-xl}) {
+    @content;
+  }
+}

@@ -4,7 +4,6 @@ import Layout from './Components/layout';
 import CardProject from "./Components/CardProject";
 import CardAward from "./Components/CardAward";
 
-
 function Home(){
   const { t } = useTranslation();
   return (

@@ -27,6 +27,13 @@
     border-top: 1px solid $primary-color;
     padding: 0 7rem 7rem;
 
+    @include xl {
+      padding: 0 3rem 24rem;
+    }
+    @include sm {
+      padding: 0 1rem 24rem;
+    }
+
     &-intro {
       margin-top: 2rem;
 

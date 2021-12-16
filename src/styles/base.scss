@@ -73,6 +73,10 @@ $secondary-color: #ffffff;
   font-weight: 400;
   text-transform: uppercase;
   color: $primary-color;
+
+  @include sm {
+    font-size: 4.5rem;
+  }
 }
 
 .title-Regular {
@@ -81,6 +85,10 @@ $secondary-color: #ffffff;
   font-weight: 400;
   text-transform: uppercase;
   color: $primary-color;
+
+  @include sm {
+    font-size: 3rem;
+  }
 }
 
 .text-note {

@@ -19,6 +19,10 @@ body {
   &,
   * {
     cursor: none;
+
+    @include xl {
+      cursor: default;
+    }
   }
 }
 
@@ -128,6 +132,10 @@ $secondary-color: #ffffff;
   font-size: 2rem;
   font-weight: 400;
   color: $primary-color;
+
+  @include sm {
+    font-size: 1.5rem;
+  }
 }
 
 .card-project-location {

@@ -3,9 +3,13 @@
   border-radius: 50%;
   width: 20px;
   height: 20px;
-  background-color: $secondary-color;
+  background: $secondary-color;
   pointer-events: none;
   overflow: hidden;
   position: fixed;
   mix-blend-mode: difference;
+
+  @include xl {
+    background: none;
+  }
 }

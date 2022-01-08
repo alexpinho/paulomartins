@@ -19,7 +19,7 @@ function Home() {
         </div>
 
         <div className="home-portfolio">
-          <div className="home-portfolio-intro row">
+          <div className="home-portfolio-intro">
             <div className="col-xs-1">
               <div className="home-portfolio-intro-left text-detail">
                 2011-2021

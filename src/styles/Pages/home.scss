@@ -6,7 +6,7 @@
     //   padding: 0 3rem 24rem;
     // }
     @include sm {
-      padding: 0 1rem 24rem;
+      padding: 0 1rem 4rem;
     }
 
     &-banner {
@@ -44,6 +44,7 @@
 
     &-intro {
       margin-top: 2rem;
+      display: flex;
 
       &-left {
         position: absolute;

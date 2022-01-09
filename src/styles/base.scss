@@ -115,6 +115,10 @@ $secondary-color: #ffffff;
   font-size: 1.25rem;
   font-weight: 400;
   color: $primary-color;
+
+  @include sm {
+    font-size: 1rem;
+  }
 }
 
 .navbar-text {

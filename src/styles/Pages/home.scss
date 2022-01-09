@@ -49,7 +49,7 @@
 
       @include sm {
         margin-top: 1rem;
-        display: table-cell;
+        display: flow-root;
       }
 
       &-mobile {
@@ -191,17 +191,33 @@
     padding-bottom: 7rem;
 
     &-intro {
-      margin-top: 2rem;
-      margin: 2rem 7rem 0;
+      padding: 2rem 7rem 0;
+      display: flex;
+      justify-content: space-between;
+
+      @include sm {
+        padding: 1rem 1rem 0;
+        display: flow-root;
+      }
+
+      &-mobile {
+        display: contents;
+
+        @include sm {
+          display: flex;
+          width: 100%;
+          padding-top: 1rem;
+          justify-content: space-between;
+        }
+      }
 
       &-left {
-        position: absolute;
+        float: left;
         margin-top: 1rem;
       }
 
       &-right {
-        position: absolute;
-        right: 7rem;
+        float: right;
         margin-top: 1rem;
       }
     }
@@ -212,6 +228,10 @@
       display: flex;
       overflow-x: auto;
 
+      @include sm {
+        padding-left: 1rem;
+      }
+
       &::-webkit-scrollbar {
         width: 0;
       }
@@ -221,10 +241,22 @@
   &-contact {
     border-top: 1px solid $primary-color;
     padding: 0 7rem;
+    position: relative;
+
+    @include sm {
+      padding: 0 1rem;
+    }
 
     &-text {
-      margin-top: 23rem;
-      margin-bottom: 14rem;
+      max-width: 100%;
+      position: relative;
+      margin: 23rem auto 14rem;
+      text-align: center;
+
+      @include sm {
+        max-width: 100%;
+        margin: 23rem auto;
+      }
     }
   }
 }

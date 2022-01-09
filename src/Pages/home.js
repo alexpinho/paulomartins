@@ -104,16 +104,12 @@ function Home() {
         </div>
 
         <div className="home-awards">
-          <div className="home-awards-intro row">
-            <div className="col-xs-1">
-              <div className="home-awards-intro-left text-detail">
-                2017-2021
+          <div className="home-awards-intro">
+            <div className="home-awards-intro-left text-detail">2017-2021</div>
+            <div className="home-awards-intro-mobile">
+              <div className=" home-awards-intro-center title-Regular">
+                {t("home-awards-title")}
               </div>
-            </div>
-            <div className="col-xs-offset-2">
-              <div className="title-Regular">{t("home-awards-title")}</div>
-            </div>
-            <div className="col end-xs">
               <a href="/media" className="home-awards-intro-right text-detail">
                 {t("text-topage")}
               </a>
@@ -166,10 +162,8 @@ function Home() {
         </div>
 
         <div className="home-contact">
-          <div className="row center-xs">
-            <div className="big-title-Regular home-contact-text">
-              {t("contact-title-1")}
-            </div>
+          <div className="big-title-Regular home-contact-text">
+            {t("contact-title-1")}
           </div>
         </div>
       </div>

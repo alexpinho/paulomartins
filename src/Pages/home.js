@@ -20,15 +20,13 @@ function Home() {
 
         <div className="home-portfolio">
           <div className="home-portfolio-intro">
-            <div className="col-xs-1">
-              <div className="home-portfolio-intro-left text-detail">
-                2011-2021
+            <div className="home-portfolio-intro-left text-detail">
+              2011-2021
+            </div>
+            <div className="home-portfolio-intro-mobile">
+              <div className="home-portfolio-intro-center title-Regular">
+                {t("home-portfolio-title")}
               </div>
-            </div>
-            <div className="col-xs-offset-2">
-              <div className="title-Regular">{t("home-portfolio-title")}</div>
-            </div>
-            <div className="col end-xs">
               <a
                 href="/portfolio"
                 className="home-portfolio-intro-right text-detail"
@@ -37,13 +35,12 @@ function Home() {
               </a>
             </div>
           </div>
-
-          <div className="home-portfolio-note col-xs-offset-4 col-xs-4">
-            <div className="text-note">{t("home-portfolio-text-note")}</div>
+          <div className="home-portfolio-note text-note">
+            {t("home-portfolio-text-note")}
           </div>
           <div className="home-portfolio-projects">
             <CardProject
-              cardProjectClassName="col-xs-offset-2 col-xs-7"
+              cardProjectClassName="card-project-1"
               cardType="card-project"
               image="images/homeportfolio-1.png"
               title={t("card-project-title-1")}
@@ -51,9 +48,9 @@ function Home() {
               country={t("card-project-country-1")}
             />
 
-            <div className="row">
+            <div className="home-portfolio-projects-row">
               <CardProject
-                cardProjectClassName="col-xs-4"
+                cardProjectClassName="card-project-2 -mobile"
                 cardType="card-project"
                 image="images/homeportfolio-2.jpg"
                 title={t("card-project-title-2")}
@@ -61,7 +58,7 @@ function Home() {
                 country={t("card-project-country-2")}
               />
               <CardProject
-                cardProjectClassName="col-xs-8"
+                cardProjectClassName="card-project-3"
                 cardType="card-project-down"
                 image="images/homeportfolio-3.jpg"
                 title={t("card-project-title-3")}
@@ -71,7 +68,7 @@ function Home() {
             </div>
 
             <CardProject
-              cardProjectClassName="col-xs-11"
+              cardProjectClassName="card-project-4"
               cardType="card-project"
               image="images/homeportfolio-4.jpeg"
               title={t("card-project-title-4")}
@@ -79,9 +76,9 @@ function Home() {
               country={t("card-project-country-4")}
             />
 
-            <div className="row">
+            <div className="home-portfolio-projects-row">
               <CardProject
-                cardProjectClassName="col-xs-offset-1 col-xs-5"
+                cardProjectClassName="card-project-5"
                 cardType="card-project"
                 image="images/homeportfolio-5.jpg"
                 title={t("card-project-title-5")}
@@ -89,7 +86,7 @@ function Home() {
                 country={t("card-project-country-5")}
               />
               <CardProject
-                cardProjectClassName="col-xs-6"
+                cardProjectClassName="card-project-6"
                 cardType="card-project-down"
                 image="images/homeportfolio-6.jpeg"
                 title={t("card-project-title-6")}
@@ -101,10 +98,8 @@ function Home() {
         </div>
 
         <div className="home-jobs">
-          <div className="row center-xs">
-            <div className="big-title-BookItalic home-jobs-text">
-              {t("jobs-title-1")}
-            </div>
+          <div className="big-title-BookItalic home-jobs-text">
+            {t("jobs-title-1")}
           </div>
         </div>
 

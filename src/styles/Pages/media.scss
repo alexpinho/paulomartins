@@ -9,8 +9,18 @@
 
   &-publication {
     padding-left: 7rem;
-    padding-right: 7rem;
     padding-bottom: 7rem;
+    width: fit-content;
+
+    @include md {
+      padding-left: 7rem;
+      padding-bottom: 7rem;
+    }
+
+    @include sm {
+      padding-left: 6rem;
+      padding-bottom: 7rem;
+    }
   }
   img {
     max-width: 100%;

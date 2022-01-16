@@ -81,6 +81,10 @@ $secondary-color: #ffffff;
   font-weight: 400;
   text-transform: uppercase;
   color: $primary-color;
+
+  @include md {
+    font-size: 2.6rem;
+  }
 }
 
 .text-note {
@@ -89,6 +93,22 @@ $secondary-color: #ffffff;
   font-weight: 300;
   line-height: 1.5rem; //24px
   color: rgba($primary-color, 0.5);
+
+  @include xl {
+    font-size: 0.75rem;
+  }
+
+  @include lg {
+    font-size: 0.75rem;
+  }
+
+  @include md {
+    font-size: 0.6rem;
+  }
+
+  @include sm {
+    font-size: 0.6rem;
+  }
 }
 
 .text-detail {
@@ -103,6 +123,22 @@ $secondary-color: #ffffff;
   font-size: 1.25rem;
   font-weight: 400;
   color: $primary-color;
+
+  @include xl {
+    font-size: 0.9rem;
+  }
+
+  @include lg {
+    font-size: 0.9rem;
+  }
+
+  @include md {
+    font-size: 0.75rem;
+  }
+
+  @include sm {
+    font-size: 0.75rem;
+  }
 }
 
 .navbar-text {
@@ -133,4 +169,15 @@ $secondary-color: #ffffff;
   font-family: "HelveticaNeue";
   font-size: 2rem; //32px
   font-weight: 400;
+}
+
+.big-text-quote {
+  font-family: "RecifeDisplay-Book";
+  font-size: 6rem;
+  font-weight: 400;
+  color: $primary-color;
+
+  @include md {
+    font-size: 3rem;
+  }
 }

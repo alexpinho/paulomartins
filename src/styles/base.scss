@@ -25,6 +25,10 @@ body {
 $primary-color: #1e1e1e;
 $secondary-color: #ffffff;
 
+button{
+  all: unset;
+}
+
 .big-title-Book {
   font-family: "RecifeDisplay-Book";
   font-size: 9rem;

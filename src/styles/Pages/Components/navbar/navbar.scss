@@ -23,6 +23,13 @@
 
     &-elements {
       padding: 0.25rem 0;
+      font-size: 1.5rem;
+
+      .navbar-text:hover {
+        transition: 0.3s;
+        transform: scale(1.1);
+        text-decoration: underline;
+      }
     }
   }
 
@@ -37,6 +44,11 @@
       outline: inherit;
       padding-left: 0.5rem;
       padding-bottom: 0.875rem;
+      .navbar-text:hover {
+        transition: 0.3s;
+        transform: scale(1.1);
+        text-decoration: underline;
+      }
     }
   }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
+import {motion} from "framer-motion";
 import Layout from './Components/layout';
 import CardJobs from "./Components/CardJobs";
 import CardJobsPopup from "./Components/CardJobsPopup";
@@ -17,7 +18,7 @@ function Jobs() {
     <Layout>
 
 
-      <div className="jobs">
+      <div className="jobs" className="contacts">
 
 
 
@@ -38,7 +39,7 @@ function Jobs() {
 
         </CardJobsPopup>
 
-        <div className="jobs-hero">
+        <motion.div className="jobs-hero" initial={{opacity:0, translateY:20}} animate={{opacity:1, translateY:0}} transition={{duration: 1}}>
 
           <div className="row">
 
@@ -50,7 +51,7 @@ function Jobs() {
 
           </div>
 
-        </div>
+        </motion.div>
 
         <div className="jobs-wrapper">
 

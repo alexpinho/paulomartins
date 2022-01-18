@@ -7,7 +7,7 @@
     &-row {
         display: flex;
         flex-direction: row;
-        padding: 0 7rem 15rem;
+        padding: 0 7rem 10rem;
         margin-top: 4.25rem;
     }
 
@@ -15,31 +15,50 @@
         text-transform: uppercase;
     }
 
-    &-adress{
+    &-adress {
         padding-bottom: 2rem;
     }
 
-    &-col-2{
+    &-col-2 {
         margin-left: 10rem;
+        margin-top: 1.7rem;
     }
 
-    &-map1{
+    &-map1, &-map2 {
         border-top: 1px solid $primary-color;
-        padding-bottom: 50vh;
+        padding-bottom: 20vh;
 
-        &-intro{
+        &-intro {
             margin-top: 4.25rem;
             padding: 0 14rem 0;
         }
 
-        &-portugal{
-            width: 45vw;
+        &-main {
+            display: flex;
+            flex-direction: row;
             padding: 0 7rem 0;
             margin-top: 4.25rem;
-        img{
-            width:100%;
-            height: auto;
+
         }
+
+        &-description{
+            display: flex;
+            flex-direction: column;
+            padding-left: 4rem;
+
+            #morada-01, #morada-02{
+                padding-bottom: 1rem;
+            }
+        }
+
+        &-portugal {
+            
+            width: 45rem;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
         }
     }
 

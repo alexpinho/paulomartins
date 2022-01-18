@@ -19,6 +19,8 @@ function Jobs() {
 
       <div className="jobs">
 
+
+
         <CardJobsPopup trigger={buttonPopup} setTrigger={setButtonPopup}>
 
           <CardJobsExtended

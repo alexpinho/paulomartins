@@ -1,5 +1,22 @@
 .card-jobs {
   padding: 1.5rem 2rem 0rem 1.5rem;
+
+ /* @include xl {
+    padding: 1.5rem 2rem 0rem 1.5rem;
+  }
+
+  @include lg {
+    padding: 1.5rem 2rem 0rem 1.5rem;
+  }
+
+  @include md {
+    padding: 1.5rem 2rem 0rem 1.5rem;
+  }
+
+  @include sm {
+    padding: 1.5rem 2rem 0rem 1.5rem;
+  }*/
+
   background-color: $primary-color;
 
   * {

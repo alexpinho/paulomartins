@@ -42,7 +42,7 @@ function Jobs() {
 
             <div className="big-title-Book" id='title'> {t("jobs-jobs-title")} </div>
 
-            <div className="col-xs-offset-1 col-xs-6" id='notes'>
+            <div /*className="col-xs-offset-1 col-xs-6"*/ id='notes'>
               <div className="text-note">{t("jobs-text-note")}</div>
             </div>
 

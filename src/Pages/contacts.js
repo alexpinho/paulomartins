@@ -1,11 +1,13 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 import Layout from './Components/layout';
 
 const Contacts = () => {
+  const { t } = useTranslation();
   return (
     <Layout>
       <div className="contacts">
-        <h1>Contacts.</h1>
+        <div className="big-title-Book"> {t("contacts-contacts-title")} </div>
       </div>
     </Layout>
   );

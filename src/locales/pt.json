@@ -43,7 +43,15 @@
         "card-jobs-title-1": "Arquiteto",
         "card-jobs-description-1": "Procuramos profissionais para trabalharem no nosso atelier de Aveiro, integrando a nossa equipa de trabalho. Ao juntar-se à nossa equipa, estará a desenvolver vários projetos e será responsável por responder a prazos estabelecidos e a ser comprometido com o seu rigor.",
         "card-jobs-title-2": "Arquiteto Sénior",
-        "card-jobs-title-3": "Artista 3D"
+        "card-jobs-title-3": "Artista 3D",
+
+        "card-jobs-extended-note-2":"Por favor submeta portfolios e trabalhos seus.",
+        "card-jobs-extended-subtitle1-2": "Responsabilidades",
+        "card-jobs-extended-subtitle2-2":"Requisitos",
+        "card-jobs-extended-responsibilities-2":"- Compreender o desenho conceptual dos projectos e desenvolver a documentação necessária para apoiar o projecto arquitectónico nas diferentes fases: desenhos, modelos 3D, documentos escritos e desenhados;<br>- Compreender claramente as leis nacionais e municipais;<br>- Capacidade de identificar problemas técnicos e de concepção e desenvolver soluções de valor acrescentado;<br>- Desenvolver e coordenar documentos de desenvolvimento e construção do projecto: preencher documentação legal, rever projecto, aprovar amostras, visitar e resolver problemas durante a construção;<br>- Pesquisa constante e aprendizagem das novas tendências de design/arquitectura, novas técnicas e processos de construção, materiais, marcas, etc.",
+        "card-jobs-extended-requirements-2":"- Mínimo de 8 anos de experiência em projectos construídos;<br>- Experiência em projectos: mínimo de 4 projectos com escalas diferentes, envolvendo todas as fases dos projectos;<br>- Capacidade de compreender e formular novas ideias conceptuais e de as partilhar com a equipa para discussão;<br>- Capacidade de alcançar prazos apertados e de fornecer actualizações regulares sobre o progresso do trabalho;<br>- Capacidade de trabalhar sob pressão e com prazos apertados;<br>- Criativo, motivado e responsável;<br>- Excelente conhecimento de trabalho de Archicad (obrigatório) / ambiente BIM (obrigatório);<br>- Bons conhecimentos de português falado e escrito;<br>- Capaz de começar a trabalhar imediatamente.",
+        "card-jobs-extended-fill-2":"PREENCHA O FORMULÁRIO"
+
 
     }
 }

@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 import Layout from './Components/layout';
 import CardJobs from "./Components/CardJobs";
 import CardJobsPopup from "./Components/CardJobsPopup";
+import CardJobsExtended from "./Components/CardJobsExtended";
+
 
 import { useState } from 'react';
 
@@ -10,10 +12,30 @@ import { useState } from 'react';
 function Jobs() {
   const { t } = useTranslation();
   const [buttonPopup, setButtonPopup] = useState(false);
+
   return (
     <Layout>
 
+
       <div className="jobs">
+
+        <CardJobsPopup trigger={buttonPopup} setTrigger={setButtonPopup}>
+
+          <CardJobsExtended
+
+            title={t("card-jobs-title-2")}
+            note={t("card-jobs-extended-note-2")}
+            description={t("card-jobs-description-1")}
+            fill={t("card-jobs-extended-fill-2")}
+
+            subtitle1={t("card-jobs-extended-subtitle1-2")}
+            responsibilities={t("card-jobs-extended-responsibilities-2")}
+
+            subtitle2={t("card-jobs-extended-subtitle2-2")}
+            requirements={t("card-jobs-extended-requirements-2")} />
+
+        </CardJobsPopup>
+
         <div className="jobs-hero">
 
           <div className="row">
@@ -35,7 +57,9 @@ function Jobs() {
               title={t("card-jobs-title-1")}
               description={t("card-jobs-description-1")} />
 
-            <div className="text-note" id="wrapper-button">{t("card-jobs-see")}</div>
+            <div className="text-note" id="wrapper-button">
+              <button onClick={() => setButtonPopup(true)}>{t("card-jobs-see")}</button>
+            </div>
           </div>
 
           <div className="jobs-wrapper-card">
@@ -51,14 +75,15 @@ function Jobs() {
             <CardJobs
               title={t("card-jobs-title-3")}
               description={t("card-jobs-description-1")} />
-            <div className="text-note" id="wrapper-button">{t("card-jobs-see")}</div>
+            <div className="text-note" id="wrapper-button">
+              <button onClick={() => setButtonPopup(true)}>{t("card-jobs-see")}</button>
+            </div>
           </div>
+
         </div>
+
       </div>
 
-      <CardJobsPopup trigger={buttonPopup} setTrigger={setButtonPopup}>
- 
-      </CardJobsPopup>
 
     </Layout>
   );

@@ -24,8 +24,9 @@ body {
 
 $primary-color: #1e1e1e;
 $secondary-color: #ffffff;
+$third-color: #9b9999;
 
-button{
+button,a{
   all: unset;
 }
 
@@ -133,8 +134,8 @@ button{
   color: rgba($primary-color, 0.5);
 }
 
-.card-jobs-title {
+/*.card-jobs-title {
   font-family: "HelveticaNeue";
   font-size: 2rem; //32px
   font-weight: 400;
-}
+}*/

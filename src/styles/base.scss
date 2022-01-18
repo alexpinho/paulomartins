@@ -17,6 +17,7 @@ body {
 
 html,
 body {
+
   &,
   * {
     cursor: none;
@@ -27,7 +28,9 @@ $primary-color: #1e1e1e;
 $secondary-color: #ffffff;
 $third-color: #9b9999;
 
-button,a{
+button,
+a,
+input {
   all: unset;
 }
 
@@ -41,12 +44,15 @@ button,a{
   @include xl {
     font-size: 8rem;
   }
+
   @include lg {
     font-size: 6rem;
   }
+
   @include md {
     font-size: 5rem;
   }
+
   @include sm {
     font-size: 4rem;
   }
@@ -62,12 +68,15 @@ button,a{
   @include xl {
     font-size: 7rem;
   }
+
   @include lg {
     font-size: 5rem;
   }
+
   @include md {
     font-size: 4rem;
   }
+
   @include sm {
     font-size: 3rem;
   }
@@ -99,12 +108,15 @@ button,a{
   @include xl {
     font-size: 1rem;
   }
+
   @include lg {
     font-size: 0.9rem;
   }
+
   @include md {
     font-size: 0.8rem;
   }
+
   @include sm {
     font-size: 11 px;
   }
@@ -127,12 +139,15 @@ button,a{
   @include xl {
     font-size: 1.25rem;
   }
+
   @include lg {
     font-size: 1.1rem;
   }
+
   @include md {
     font-size: 1rem;
   }
+
   @include sm {
     font-size: 0.9rem;
   }

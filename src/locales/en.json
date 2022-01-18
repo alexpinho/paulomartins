@@ -118,7 +118,18 @@
         "card-publication-local-19": "China",
         "card-publication-date-19": "December 2014",
 
-        "contacts-contacts-title": "Contact Us"
+        "contacts-contacts-title": "Contact Us",
+        "contacts-info-general": "General",
+        "contacts-info-careers": "Careers",
+        "contacts-info-press": "Press",
+        "contacts-adress-1": "geral@paulomartins.com.pt",
+        "contacts-adress-2": "jobs@paulomartins.com.pt",
+        "contacts-adress-3": "press@paulomartins.com.pt",
+        "contacts-form-name": "name",
+        "contacts-form-email": "email",
+        "contacts-form-message": "message",
+        "contacts-map-info": "Portugal"
+
 
     }
 }

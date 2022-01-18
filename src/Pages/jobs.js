@@ -55,14 +55,14 @@ function Jobs() {
         <div className="jobs-wrapper">
 
           <div className="jobs-wrapper-card">
-            <CardJobs
+           <CardJobs
               title={t("card-jobs-title-1")}
               description={t("card-jobs-description-1")} />
 
             <div className="text-note" id="wrapper-button">
               <button onClick={() => setButtonPopup(true)}>{t("card-jobs-see")}</button>
             </div>
-          </div>
+          </div> 
 
           <div className="jobs-wrapper-card">
             <CardJobs

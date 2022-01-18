@@ -1,0 +1,46 @@
+.contacts {
+
+    &-hero {
+        padding: 0 7rem 0;
+    }
+
+    &-row {
+        display: flex;
+        flex-direction: row;
+        padding: 0 7rem 15rem;
+        margin-top: 4.25rem;
+    }
+
+    &-info {
+        text-transform: uppercase;
+    }
+
+    &-adress{
+        padding-bottom: 2rem;
+    }
+
+    &-col-2{
+        margin-left: 10rem;
+    }
+
+    &-map1{
+        border-top: 1px solid $primary-color;
+        padding-bottom: 50vh;
+
+        &-intro{
+            margin-top: 4.25rem;
+            padding: 0 14rem 0;
+        }
+
+        &-portugal{
+            width: 45vw;
+            padding: 0 7rem 0;
+            margin-top: 4.25rem;
+        img{
+            width:100%;
+            height: auto;
+        }
+        }
+    }
+
+}

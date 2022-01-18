@@ -144,6 +144,8 @@ function Home(){
         </div> 
 
         <div className="home-contact">
+        <img src="images/card1.png" className="home-contact-img1 col-xs-5" alt=" " />
+        <img src="images/card2.png" className="home-contact-img2 col-xs-offset-6 col-xs-4" alt=" " />
             <div className="row center-xs">
                 <div className="big-title-Regular home-contact-text">{t("contact-title-1")}</div>
             </div>
